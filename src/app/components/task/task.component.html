@@ -1,0 +1,11 @@
+<div class="container">
+  <h1 class="title">Lista de Tarefas</h1>
+
+  <div class="task-list">
+    @for (task of tasks; track task.id) {
+    <mat-card class="task-card">
+      <div mat-line>{{ task.name }} ID: {{ task.id }}</div>
+    </mat-card>
+    }
+  </div>
+</div>

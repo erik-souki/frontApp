@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página com Barra Lateral</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@angular/material@15/prebuilt-themes/indigo-pink.css">
+</head>
+<body>
+
+
+  <div style="padding: 16px;">
+    <h1>Conteúdo principal</h1>
+    <p>Aqui vai o conteúdo principal da página. Use este espaço para adicionar informações, tabelas ou outros componentes.</p>
+  </div>
+  <div>
+    <button mat-stroked-button (click)="abrirDialogCriarTarefa()">Basic</button>
+  </div>
+  <app-task></app-task>
+
+  <script src="https://cdn.jsdelivr.net/npm/@angular/core@15/bundles/core.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@angular/platform-browser@15/bundles/platform-browser.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@angular/material@15/bundles/material.umd.min.js"></script>
+
+</body>
+</html>

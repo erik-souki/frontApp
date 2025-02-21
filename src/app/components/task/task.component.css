@@ -1,0 +1,40 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-list {
+  border-radius: 8px;
+  max-width: auto;
+  margin: 0 auto;
+  height: auto;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 16px;
+  background-color: #f8f9fa;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #777;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.task-id {
+  font-size: 12px;
+  color: #666;
+}
+
+.container {
+  min-height: 100vh; /* Ocupa a altura total da tela */
+  padding: 16px;
+  box-sizing: border-box;
+}
+.task-card{
+  height: 35px;
+  padding: 9px;
+  margin:5px;
+}
