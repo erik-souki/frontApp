@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { SharedModule } from '../shared/shared.module';
-import { TaskComponent } from "../components/task/task.component";
-import { CreateTaskComponent } from "../components/create-task/create-task.component";
+import { SharedModule } from '../../shared/shared.module';
+import { TaskComponent } from "../../components/task/task.component";
+import { CreateTaskComponent } from "../../components/create-task/create-task.component";
 
 import { MatDialog } from '@angular/material/dialog';
+import { DrawerComponent } from "../../components/drawer/drawer.component";
 
 @Component({
   selector: 'app-home',
-  imports: [SharedModule, TaskComponent, CreateTaskComponent],
+  imports: [SharedModule, TaskComponent, DrawerComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

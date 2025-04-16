@@ -1,0 +1,34 @@
+::ng-deep .p-drawer {
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem 0 0 1rem;
+  transition: all 0.3s ease;
+}
+
+::ng-deep .p-drawer-content {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+::ng-deep .p-drawer .p-button.p-button-outlined {
+  border-color: transparent;
+  color: #6b7280;
+  transition: background-color 0.2s ease;
+}
+
+::ng-deep .p-drawer .p-button.p-button-outlined:hover {
+  background-color: #f3f4f6;
+}
+
+::ng-deep .p-drawer ul > li > a:hover {
+  background-color: #f9fafb;
+  color: #2563eb;
+}
+
+::ng-deep .p-drawer ul ul {
+  border-left: 2px solid #e5e7eb;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}

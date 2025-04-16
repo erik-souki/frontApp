@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatSidenavModule} from '@angular/material/sidenav';
@@ -10,26 +11,12 @@ import {MatInputModule} from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { ButtonModule } from 'primeng/button';
+import { DividerModule } from 'primeng/divider';
+import { Avatar } from 'primeng/avatar';
+import { DrawerModule } from 'primeng/drawer';
+import { InputTextModule } from 'primeng/inputtext';
 
 
 
@@ -43,9 +30,17 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     MatFormFieldModule,
     MatToolbarModule,
     MatInputModule,
-    MatListModule
+    MatListModule,
+    FormsModule,
+    ReactiveFormsModule,
+    DividerModule,
+    ButtonModule,
+    Avatar,
+    DrawerModule,
+    InputTextModule
   ],
   exports: [
+    CommonModule,
     MatSidenavModule,
     MatCardModule,
     MatButtonModule,
@@ -53,7 +48,14 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     MatFormFieldModule,
     MatToolbarModule,
     MatInputModule,
-    MatListModule
+    MatListModule,
+    FormsModule,
+    ReactiveFormsModule,
+    DividerModule,
+    ButtonModule,
+    Avatar,
+    DrawerModule,
+    InputTextModule
 
   ]
 
